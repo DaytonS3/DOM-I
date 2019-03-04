@@ -193,4 +193,7 @@ h1.forEach( function( currentValue ){
   currentValue.style.color = 'limegreen';
 });
 
-document.getElementById("footerP").style.border = "thick solid limegreen";
+document.getElementById("footerP").style.border = "2px solid lightgrey";
+document.getElementById("footerP").style.padding = "20px";
+// document.getElementById("container").style.border = "2px solid grey";
+// document.getElementById("container").style.padding = "20px";
