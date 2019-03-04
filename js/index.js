@@ -69,7 +69,7 @@ document.querySelector('nav').appendChild(x);
 
 let x2 = document.createElement('a');
 let t2 = document.createTextNode("Nav item-2");
-x.prepend(t2);
+x2.prepend(t2);
 document.querySelector('nav').prepend(x2);
 
 const navItems = document.querySelectorAll('a');
