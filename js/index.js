@@ -63,12 +63,12 @@ NavA[5].textContent = siteContent.nav["nav-item-6"]
 
 
 let x = document.createElement('a');
-let t = document.createTextNode("Nav item-1");
+let t = document.createTextNode("Last-Nav-Item");
 x.appendChild(t);
 document.querySelector('nav').appendChild(x);
 
 let x2 = document.createElement('a');
-let t2 = document.createTextNode("Nav item-2");
+let t2 = document.createTextNode("First-Nav-Item");
 x2.prepend(t2);
 document.querySelector('nav').prepend(x2);
 
