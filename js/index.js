@@ -181,3 +181,16 @@ contactPThree[7].textContent = siteContent["contact"]["email"];
 let footerP = document.querySelectorAll('p');
 
 footerP[8].textContent = siteContent["footer"]["copyright"];
+
+
+const h4 = document.querySelectorAll('h4');
+h4.forEach( function( currentValue ){
+  currentValue.style.color = 'limegreen';
+});
+
+const h1 = document.querySelectorAll('h1');
+h1.forEach( function( currentValue ){
+  currentValue.style.color = 'limegreen';
+});
+
+document.getElementById("footerP").style.border = "thick solid limegreen";
