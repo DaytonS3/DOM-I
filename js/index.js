@@ -45,6 +45,7 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 
 
 
+
 //NAVIGATION
 
 let NavA = document.querySelectorAll('a');
@@ -67,10 +68,101 @@ navItems.forEach( function( currentValue ){
 
 //CALL TO ACTION
 
-
+//h1
 let CTAh1 = document.querySelectorAll('h1');
 
 CTAh1[0].textContent = siteContent.cta["h1"]
 
 
+//button
+let CTAButton = document.querySelectorAll('button');
 
+CTAButton[0].textContent = siteContent.cta['button'];
+
+//img
+let CTAImg = document.querySelector('#cta-img');
+
+CTAImg.src = "img/header-img.png";
+CTAImg.alt = "Logo Image"
+
+
+//MAIN-CONTENT
+
+
+//Features
+let featuresH4 = document.querySelectorAll('h4');
+
+featuresH4[0].textContent = siteContent["main-content"]["features-h4"];
+
+
+let featuresP = document.querySelectorAll('p');
+
+featuresP[0].textContent = siteContent["main-content"]["features-content"];
+
+
+//About
+let aboutH4 = document.querySelectorAll('h4');
+
+aboutH4[1].textContent = siteContent["main-content"]["about-h4"];
+
+
+let aboutP = document.querySelectorAll('p');
+
+aboutP[1].textContent = siteContent["main-content"]["about-content"];
+
+
+//Middle-Img
+let middleImg = document.getElementById('middle-img');
+
+middleImg.setAttribute('src', siteContent["main-content"]["middle-img-src"])
+
+//services
+let servicesH4 = document.querySelectorAll('h4');
+
+servicesH4[2].textContent = siteContent["main-content"]["services-h4"];
+
+
+let servicesP = document.querySelectorAll('p');
+
+servicesP[2].textContent = siteContent["main-content"]["services-content"];
+
+
+//Product
+let ProductH4 = document.querySelectorAll('h4');
+
+ProductH4[3].textContent = siteContent["main-content"]["product-h4"];
+
+
+let ProductP = document.querySelectorAll('p');
+
+ProductP[3].textContent = siteContent["main-content"]["product-content"];
+
+
+//Vision
+let visionH4 = document.querySelectorAll('h4');
+
+visionH4[4].textContent = siteContent["main-content"]["vision-h4"];
+
+
+let visionP = document.querySelectorAll('p');
+
+visionP[4].textContent = siteContent["main-content"]["vision-content"];
+
+
+
+
+
+
+// "main-content": {
+//   "features-h4":"Features",
+//   "features-content": "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.",
+//   "about-h4":"About",
+//   "about-content": "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.",
+//   "middle-img-src": "img/mid-page-accent.jpg",
+//   "services-h4":"Services",
+//   "services-content": "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.",
+//   "product-h4":"Product",
+//   "product-content": "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.",
+//   "vision-h4":"Vision",
+//   "vision-content": "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.",
+// },
